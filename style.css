@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: rgb(181, 235, 235);
-    background-image: url('./image/bgimg2.jpg');
+    background-image: url('bgimg2.jpg');
     background-size: cover; /* This will make the image cover the entire body */
     background-repeat: no-repeat;
     /* background-position: 100px; */
