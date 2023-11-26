@@ -4,11 +4,11 @@ console.log(img)
 
 function turnon()
 {
-    img.src ='./image/light on.png'
+    img.src ='light on.png'
 }
 function turnoff()
 {
-    img.src ='./image/light off.png'
+    img.src ='light off.png'
     img.style.marginLeft = '-3px'
     img.style.marginBottom ='10px'
 }
