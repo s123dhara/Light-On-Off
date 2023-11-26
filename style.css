@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: rgb(181, 235, 235);
+    background-image: url('./image/bgimg2.jpg');
+    background-size: cover; /* This will make the image cover the entire body */
+    background-repeat: no-repeat;
+    /* background-position: 100px; */
+    background-attachment: fixed;
+    /* background-position: center; */
+}
+
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+/*     
+    border: 1px solid black; */
+    width: 300px;
+    padding: 20px 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    background-color: transparent;
+    box-shadow: 2px 3px 10px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container h2{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    text-align: center;
+
+}
+.container button{
+    background-color: antiquewhite;
+    width: 100px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    font-size: 16px; /* Set the font size (optional) */
+    color: rgb(83, 34, 34);
+    box-shadow: 2px 1px 7px 1px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+    /* Add other styling properties as needed */
+}
+
+.container button:hover{
+    color: rgb(171, 192, 76);
+    transition: 0.4s ease;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+
+    }
+    .container h2
+    {
+        text-wrap: nowrap;
+    }
+    #b1 {
+        margin-left: 120px;
+    }
+}
