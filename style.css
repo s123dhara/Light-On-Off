@@ -54,7 +54,7 @@ body {
 /* Media query for smaller screens */
 @media screen and (max-width: 600px) {
     .container {
-        width: 90%;
+        width: 100%;
 
     }
     .container h2
@@ -63,5 +63,23 @@ body {
     }
     #b1 {
         margin-left: 120px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        width: 100%;
+    }
+    #b1{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container{
+        width: 100%;
+    }
+    #b1{
+        margin-left: 20px;
     }
 }
